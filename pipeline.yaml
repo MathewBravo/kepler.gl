@@ -1,0 +1,7 @@
+pipeline:
+  name: "kepler-setup"
+  tasks:
+    - name: "setup_and_start_kepler"
+      type: "bash script"
+      port: 8080
+      bash_script_path: "kepler_setup.sh"
